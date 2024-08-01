@@ -1,0 +1,37 @@
+Load Testing: Verify the site's performance with 500,000 concurrent users.
+
+Stress Testing: Verify the site's performance with 1 million concurrent users.
+
+User Interface Testing:
+  - Ensure that the site's styles are applied correctly and loaded as intended.
+  - Check that clicking on a photo in the gallery opens it in full-screen mode.
+
+Configuration / Compatibility Testing: Verify that cookies are displayed correctly across different browsers.
+
+Localization Testing:
+  - Verify that the size grid conforms to regional requirements based on the country.
+  - Check site accessibility from countries where the site is intended to be used (this may not be strictly localization, but it is related).
+
+Globalization Testing: Verify that the unit conversion feature (from cm to inches) works correctly in the Footwear product category.
+
+Re-testing: Verify that an error message appears when fewer than 10 characters are entered in the password field (after a bug fix).
+
+Smoke Testing: Verify that items can be successfully added to the cart.
+
+Regression Testing: Verify that the password recovery functionality works as expected.
+
+Sanity Testing: Verify that user registration works correctly with valid data.
+
+Ad-hoc Testing: Verify the search results when six digits are entered in the search field.
+
+Security Testing:
+  - Verify that user types (registered vs. unregistered) have appropriate access rights.
+  - Check that users can only log in with the correct password stored in the database.
+
+Install Testing: Verify the application functions correctly after updating to the latest version.
+
+API Testing: Verify that data is correctly received after a user makes a payment through third-party apps like Wayforpay.
+
+Inter-System Testing: Verify that the secure order placement and checkout process function correctly on the order page.
+
+System Integration Testing: Verify that adding items to the basket in the browser synchronizes correctly with the application and vice versa.
